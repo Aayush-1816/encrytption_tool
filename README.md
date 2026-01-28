@@ -1,35 +1,51 @@
-# 🔐 Python Encryption & Password Utility
+# 🔐 Python Cryptography & Password Security Toolkit
 
-A cross-platform terminal-based tool for file encryption/decryption, password hashing and verification, and secure logging — built using `cryptography` and `bcrypt`.
+A cross-platform command-line security tool for **file encryption/decryption, password hashing, and verification**, built using industry-standard Python security libraries.
 
-## 📦 Features
+This project demonstrates practical implementation of **core cryptographic and password security concepts** used in cybersecurity.
 
-- ✅ Encrypt & decrypt files (including images/videos) using **Fernet symmetric encryption**
-- 🔑 Automatic **key generation** and secure storage
-- 🔐 **Password hashing** with bcrypt (salted)
-- ✅ **Password verification** from hashed input
-- 📄 View operation logs from a centralized `usage.log`
-- 🧰 Simple **menu-driven CLI interface**
-- 🖥 Works on **Windows**, **Linux**, and **macOS**
+---
 
-## ⚙️ Requirements
+## 🚀 Features
 
-- Python 3.7 or higher
-- `cryptography` library
-- `bcrypt` library
+- 🔒 **File Encryption & Decryption**
+  - Uses **Fernet symmetric encryption** from the `cryptography` library
+  - Works with documents, images, videos, and other file types
 
-### 📥 Install Dependencies
+- 🔑 **Secure Key Generation & Storage**
+  - Automatically generates encryption keys
+  - Designed to prevent plaintext exposure
 
+- 🧂 **Password Hashing**
+  - Uses **bcrypt** with salting for strong password protection
+
+- ✅ **Password Verification**
+  - Validates user input against stored hashed passwords
+
+- 📄 **Operation Logging**
+  - Records tool activity in a centralized `usage.log` file
+
+- 🧰 **Menu-Driven CLI Interface**
+  - Easy-to-use terminal interface for all operations
+
+- 💻 **Cross-Platform Support**
+  - Works on Windows, Linux, and macOS
+
+---
+
+## 🛠️ Technologies Used
+
+| Purpose | Tool/Library |
+|--------|--------------|
+Encryption | `cryptography` (Fernet) |
+Password Security | `bcrypt` |
+Language | Python 3 |
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
 ```bash
-pip install -r requirements.txt
-```
-
-## 🚀 Usage
-
-```bash
-python crypto_tool.py
-```
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+git clone https://github.com/Aayush-1816/python-cryptography-toolkit.git
+cd python-cryptography-toolkit
